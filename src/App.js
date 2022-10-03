@@ -15,8 +15,8 @@ const App = () => {
 
       {
         images.map((image, index) => (
-          <div>
-            <div key={index} className='each-slide-effect' >
+          <div key={index} >
+            <div className='each-slide-effect' >
               <img src={image} className='image' />
 
               <a href='#'>Ver más</a>
